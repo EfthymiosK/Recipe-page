@@ -215,3 +215,51 @@ table strong {
 .last-row {
     border: none;
 }
+
+@media only screen and (min-width: 768px) {
+
+main {
+    max-width: 768px;
+    background-color: hsl(30, 18%, 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    max-width: 80.2%;
+    border-radius: 1.5rem;
+}
+
+img {
+    border-radius: 0.75rem;
+    margin-top: 40px;
+}
+
+.img-container {width: 87.01%;}
+.text-container {width: 87.01%}
+.preparation-container {width: 87.01%;}
+.ingredients-container {width: 87.01%;}
+.instructions-container {width: 87.01%;}
+.nutrition-container {width: 87.01%;}
+}
+
+@media only screen and (min-width: 1440px) {
+    main {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 46rem;
+    }
+
+    .img-container {width: 89.13%;}
+    .text-container {width: 89.13%;}
+    .preparation-container {width: 89.13%;}
+    .ingredients-container {width: 89.13%;}
+    .instructions-container {width: 89.13%;}
+    .nutrition-container {width: 89.13%;}
+}
