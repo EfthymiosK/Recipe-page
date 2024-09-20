@@ -67,7 +67,7 @@ img {
 }
 
 .text-container {
-    max-width: 82.9%;
+    width: 82.9%;
     
 }
 
@@ -220,7 +220,7 @@ table strong {
 
 main {
     max-width: 768px;
-    background-color: hsl(30, 18%, 87%);
+    background-color: hsl(30, 54%, 90%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +240,7 @@ img {
 }
 
 .img-container {width: 87.01%;}
-.text-container {width: 87.01%}
+.text-container {width: 87.01%;}
 .preparation-container {width: 87.01%;}
 .ingredients-container {width: 87.01%;}
 .instructions-container {width: 87.01%;}
@@ -255,6 +255,8 @@ img {
     .container {
         max-width: 46rem;
     }
+
+    h1 {font-size: 2.5rem;}
 
     .img-container {width: 89.13%;}
     .text-container {width: 89.13%;}
